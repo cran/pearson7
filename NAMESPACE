@@ -1,0 +1,8 @@
+export(dpearson7)
+export(pearson7.fit)
+export(pearson7.objective)
+export(ppearson7)
+export(qpearson7)
+export(rpearson7)
+import(utils)
+S3method(summary,pearson7)

@@ -1,0 +1,35 @@
+\name{summary.pearson7}
+\alias{summary.pearson7}
+\title{Print a summary of a Pearson VII fit.}
+\usage{
+  \method{summary}{pearson7} (object, alpha = 0.05,
+    digits = 4, ...)
+}
+\arguments{
+  \item{object}{an object of class
+  \dQuote{\code{pearson7}}, the result of a call to
+  \code{\link{pearson7.fit}}.}
+
+  \item{alpha}{the significance level used to compute the
+  confidence intervals. The default is 0.05.}
+
+  \item{digits}{the number of significant digits to
+  display. The default is 4.}
+
+  \item{\dots}{additional arguments.}
+}
+\description{
+  Print a summary of a Pearson VII fit.
+}
+\details{
+  This function displays (1) a table of estimates, (2) the
+  value of the log likelihood, and (3) the number of
+  Newton-Raphson iterations. Each row of the table of
+  estimates shows the parameter estimate and the
+  approximate \eqn{(1-\alpha)100\%}{(1-\alpha)100\%}
+  confidence interval for the parameter.
+}
+\seealso{
+  \code{\link{pearson7.fit}}
+}
+

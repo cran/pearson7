@@ -1,0 +1,13 @@
+ad17178f63ffd0061e354da11a5efba6 *COPYING
+10b4c643f0c403e845c3f2c6fca975d5 *DESCRIPTION
+1822ea15f3275e16c703509ac7f91b8b *NAMESPACE
+dae2d6b086f917417f5dcabc8806b1f9 *R/pearson7.R
+9fbeb346363dc37742d61c5b2e3a9f6d *R/zzz.R
+27aee64f38b3b3bc3ebe8e7ee2374919 *inst/CITATION
+f55dd077ea055b9b99341b928e027247 *man/dpearson7.Rd
+37cb1c2e3485d70a73cc640f32e582e9 *man/pearson7.fit.Rd
+dc3ef5e6c283e2472afbd0a32903fe1d *man/pearson7.objective.Rd
+85efab58de6d244ff3ba2bd67c2001fb *man/ppearson7.Rd
+a0bf94e2ac40fe993f75fce7e5277f30 *man/qpearson7.Rd
+3075d583fc56a69fcf263c0627554956 *man/rpearson7.Rd
+7d61b9415482650bf0f01fd2903a1b80 *man/summary.pearson7.Rd

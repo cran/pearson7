@@ -1,0 +1,54 @@
+\name{dpearson7}
+\alias{dpearson7}
+\title{Evaluate the density for the Pearson VII distribution with shape parameter 3/2.}
+\usage{
+  dpearson7(x, mu = 0, sigma = 1, log = FALSE)
+}
+\arguments{
+  \item{x}{vector of quantiles.}
+
+  \item{mu}{vector of means.}
+
+  \item{sigma}{vector of scales.}
+
+  \item{log}{logical; if \code{TRUE}, probabilities p are
+  given as log(p).}
+}
+\value{
+  the density.
+}
+\description{
+  Evaluate the density for the Pearson VII distribution
+  with shape parameter 3/2.
+}
+\details{
+  If \code{mu} is not specified, it assumes the default
+  value of 0. If \code{sigma} is not specified, it assumes
+  the default value of 1.
+
+  The Pearson VII distribution with location \eqn{\mu},
+  scale \eqn{\sigma}, and shape 3/2 has density
+  \deqn{f(x)=1/(2\sigma)[1+\{(x-\mu)/\sigma\}^2]^{-3/2}.}{f(x)=1/(2\sigma)[1+{(x-\mu)/\sigma}^2]^{-3/2}.}
+}
+\examples{
+curve(dpearson7(x), -5, 5, lwd = 2, n = 500, ylab = "f(x)")
+curve(dnorm(x), lwd = 2, lty = 2, n = 500, add = TRUE)
+}
+\references{
+  Hughes, J., Shastry, S., Hancock, W. O., and Fricks, J.
+  (2013) Estimating velocity for processive motor proteins
+  with random detachment. \emph{Journal of Agricultural,
+  Biological, and Environmental Statistics}, in press.
+
+  Pearson, K. (1916) Mathematical contributions to the
+  theory of evolution. xix. second supplement to a memoir
+  on skew variation. \emph{Philosophical Transactions of
+  the Royal Society of London. Series A, Containing Papers
+  of a Mathematical or Physical Character}, \bold{216},
+  429--457.
+}
+\seealso{
+  \code{\link{ppearson7}}, \code{\link{qpearson7}},
+  \code{\link{rpearson7}}
+}
+

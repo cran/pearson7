@@ -1,0 +1,44 @@
+\name{rpearson7}
+\alias{rpearson7}
+\title{Generate random deviates from a Pearson VII distribution with shape parameter 3/2.}
+\usage{
+  rpearson7(n, mu = 0, sigma = 1)
+}
+\arguments{
+  \item{n}{number of observations.}
+
+  \item{mu}{vector of means.}
+
+  \item{sigma}{vector of scales.}
+}
+\value{
+  random deviates.
+}
+\description{
+  Generate random deviates from a Pearson VII distribution
+  with shape parameter 3/2.
+}
+\details{
+  If \code{mu} is not specified, it assumes the default
+  value of 0. If \code{sigma} is not specified, it assumes
+  the default value of 1.
+}
+\examples{
+y = rpearson7(1000)
+hist(y, prob = TRUE, breaks = 100, col = "gray")
+curve(dpearson7(x), lwd = 2, col = "blue", add = TRUE)
+}
+\references{
+  Hughes, J., Shastry, S., Hancock, W. O., and Fricks, J.
+  (2013) Estimating velocity for processive motor proteins
+  with random detachment. \emph{Journal of Agricultural,
+  Biological, and Environmental Statistics}, in press.
+
+  Devroye, L. (1986) \emph{Non-Uniform Random Variate
+  Generation}. New York: Springer-Verlag.
+}
+\seealso{
+  \code{\link{dpearson7}}, \code{\link{ppearson7}},
+  \code{\link{qpearson7}}
+}
+
