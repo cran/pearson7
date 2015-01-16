@@ -1,6 +1,5 @@
-desc = packageDescription("pearson7")
-year = sub(".*(2[[:digit:]]{3})-.*", "\\1", desc$Date)
-vers = paste("R package version", desc$Version)
+year = sub(".*(2[[:digit:]]{3})-.*", "\\1", meta$Date)
+vers = paste("R package version", meta$Version)
 citHeader("'pearson7' supports maximum likelihood inference for the Pearson VII distribution with shape parameter 3/2 and free location and scale parameters. This distribution is relevant when estimating the velocity of processive motor proteins with random detachment.\n\nThis version of 'pearson7' is currently licensed under the GNU Public License, v2 or later.\n\nIf you are using 'pearson7' for research that will be published, please acknowledge this with the following citation:\n\n")
 citEntry(entry = "Manual",
          title = "pearson7: Maximum Likelihood Inference for the Pearson VII Distribution with Shape Parameter 3/2",
