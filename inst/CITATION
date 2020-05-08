@@ -5,11 +5,11 @@ citEntry(entry = "Manual",
          title = "pearson7: Maximum Likelihood Inference for the Pearson VII Distribution with Shape Parameter 3/2",
          author = personList(as.person("John Hughes")),
          year = year,
-         address = "Denver, CO",
+         address = "Frederick, MD",
          note = vers,
          textVersion =
          paste("John Hughes. (",
                year,
                "). pearson7: Maximum Likelihood Inference for the Pearson VII Distribution with Shape Parameter 3/2. ",
-               vers, ". Denver, CO.", sep = ""))
+               vers, ". Frederick, MD.", sep = ""))
 
